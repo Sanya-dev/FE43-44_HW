@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+ }
+ /*
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+    font-size: 8rem;
+}
+div{
+    width: 500px;
+    height: 250px;
+    border: solid 2px blue;
+    margin: 5px;  
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ */
+
+/* ДЗ  Скачать 8 картинок на одну тему 
+ДЗ* С помощью свойства bgc image добавить 8 картинок в div */ 
+body{
+    font-family: 'Lobster', cursive;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightgrey;
+    width: 90%;
+    margin: auto;
+    padding: 40px 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 1px  #2ecc36;
+}
+header{
+    height: 60px;
+    background-color: #f2f2f2;
+    padding-top: 5px;
+}
+.text{
+    font-family: 'Caveat', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+h1{
+    text-align: center;
+}
+div {
+    width: calc(50% - 20px); /* ширина */
+    height: 200px; /* высота */
+    /* background-color: yellow; */
+    margin: 10px; 
+    /* background-position: center center; 
+    background-repeat: no-repeat; */
+    background-size: cover;
+    transition: 0.8s;
+}
+div:hover{
+    transform: scale(1.05);
+}
+.item-1{
+    background-image: url(../img/img1.jfif);
+}
+.item-2{
+    background-image: url(../img/img2.jfif);
+}
+.item-3{
+    background-image: url(../img/img3.jfif);
+}
+.item-4{
+    background-image: url(../img/img4.jfif);
+}
+.item-5{
+    background-image: url(../img/img5.jfif);
+}
+.item-6{
+    background-image: url(../img/img6.jfif);
+}
+.item-7{
+    background-image: url(../img/img7.jfif);
+}
+.item-8{
+    background-image: url(../img/img8.jfif);
+}
